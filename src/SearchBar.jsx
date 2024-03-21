@@ -1,19 +1,25 @@
-import React from "react";
-
+import React, {useState} from "react";
+import './SearchBar.css';
 function SearchBar(){
 
+const [searchTag, setSearchTag] = useState('');
+
 const submitHandler = () => {
-   return null;
+
+    console.log(searchTag);
+  
 }
 
-    return (<div>
+
+
+    return (<div className="main-container">
         <form id="search" onSubmit={submitHandler}>
-           <input type="text" />
-           <button type="submit">Submit</button>
+           <input name="searchtag" type="text" value={searchTag} onChange={(e)=>setSearchTag(e.target.value)}/>
+           <button type="submit">Search</button>
         </form>
 
         <ul className="search-list">
-            <li>1</li>
+            <li>{searchTag}</li>
         </ul>
            </div>  
     )

@@ -1,12 +1,31 @@
+.main-container{
+    margin:auto,
+}
+
 #search{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin:25px auto;
-    padding:10px 20px;
+    justify-content: flex-start;
+    width:fit-content;
+    margin:20px 10px;
+    padding:10px 10px;
     color:grey;
-    border:1px solid darkgray;
+    
     border-radius:5px;
+    
+}
+#search input{ 
+    border-radius: 15px 0px 0px 15px; 
+    border:none;
+    font-size: 20px;
+    text-indent: 15px;
+   }
+
+#search button {
+    border-radius: 0 15px 15px 0; 
+    border:none;
+    font-size:20px;
+    font-family: 'sans-serif';
 }
 
-button {padding:20px 30px;}
+button {padding:10px 30px;}
