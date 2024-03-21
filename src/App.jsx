@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './App.css'
+import SearchBar from './SearchBar'
 
 function App() {
   
@@ -8,11 +9,12 @@ function App() {
   return (
     <>
       <div className='container'>
-        
+       <SearchBar />
       </div>
       
     </>
   )
 }
+
 
 export default App

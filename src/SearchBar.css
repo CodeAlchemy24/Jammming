@@ -1,0 +1,12 @@
+#search{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:25px auto;
+    padding:10px 20px;
+    color:grey;
+    border:1px solid darkgray;
+    border-radius:5px;
+}
+
+button {padding:20px 30px;}
