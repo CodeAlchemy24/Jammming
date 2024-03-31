@@ -6,7 +6,7 @@ function SearchBar(){
 
 const [searchTag, setSearchTag] = useState('');
 const [sampleAlbums, setSampleAlbums]=useState([{title:'Ring ring', author:'ABBA'}, 
-{title: 'Sunrise', author:'K.Lach'},{title: 'Coming back', author:'Huigli'}]);
+{title: 'Sunrise', author:'K. Lach'},{title: 'Coming back', author:'Huigli'}]);
 const [filteredAlbums, setFilteredAlbums] = useState([]);
 
 const search = () => {
